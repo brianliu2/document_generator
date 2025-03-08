@@ -2,7 +2,7 @@
 
 ## 1. 项目概述
 
-数据合成器是一个全栈应用，由前端（基于现代JavaScript框架）和后端（基于Python Django）组成。该应用允许用户上传文件，提取文本，优化提示词，并生成专业数据。
+数据合成器是一个全栈应用，由前端（基于现代JavaScript框架）和后端（基于Django）组成。该应用允许用户上传文件，提取文本，优化提示词，并生成专业数据。
 
 ## 2. 技术栈
 
@@ -16,13 +16,13 @@
 - **语言**：TypeScript
 
 ### 2.2 后端
-- **框架**：Django 4.2+
+- **框架**：Django 5.0.4^
 - **API框架**：Django REST Framework
 - **数据库**：PostgreSQL
 - **异步任务**：Celery
 - **缓存**：Redis
-- **AI集成**：OpenAI, DeepSeek, Gemini APIs
-- **文件存储**：Django FileField + 云存储选项
+- **AI集成**：OpenAI, DeepSeek, Gemini，Anthropic APIs
+- **文件存储**：Django FileField + 本地存储
 
 ## 3. 目录结构
 
